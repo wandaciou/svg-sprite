@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <g fill="none" fill-rule="evenodd" opacity=".8">
+        <g fill-rule="nonzero" stroke="#84BABD">
+            <g>
+                <g>
+                    <g>
+                        <g transform="translate(-168 -364) translate(125 348) translate(15 14) translate(28 2) translate(1 4)">
+                            <rect width="16.5" height="26.5" x="16.75" y=".75" stroke-width="1.5" rx="2"/>
+                            <rect width="16.5" height="26.5" x=".75" y=".75" fill="#D5F3F4" stroke-width="1.5" rx="2"/>
+                            <g>
+                                <g transform="translate(4 4) translate(15 8)">
+                                    <rect width="10.5" height="10.5" x=".75" y=".75" stroke-width="1.5" rx="2"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 9L3 3 4.9 3 4.9 9 9 9 9 7.002 6.865 7.002 6.865 3 9 3 9 5.486"/>
+                                </g>
+                                <g stroke-linecap="round" stroke-width="1.5">
+                                    <path d="M1.5 1.5L8 1.5M0 10.5L10 10.5M0 13.5L10 13.5M0 16.5L10 16.5M0 19.5L10 19.5M0 7.5L10 7.5" transform="translate(4 4)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

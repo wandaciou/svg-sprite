@@ -1,29 +1,29 @@
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 //png
-gulp.task('png', function () {
-  gulp.src('./src/*.png')
-    .pipe($.spritesmith({
-      imgName: 'icon.png',
-      cssName: 'icon.css',
-      cssTemplate: './src/png_template.hbs'
-    }))
-    .pipe(gulp.dest('dist/png'));
-});
+// gulp.task('png', function () {
+//   gulp.src('./src/*.png')
+//     .pipe($.spritesmith({
+//       imgName: 'icon.png',
+//       cssName: 'icon.css',
+//       cssTemplate: './src/png_template.hbs'
+//     }))
+//     .pipe(gulp.dest('dist/png'));
+// });
 //字体图标
-gulp.task('iconfont', function () {
-  return gulp.src(['src/*.svg'])
-    .pipe($.iconfontCss({
-      fontName: 'iconfont',
-      path: './src/font_template.css',
-      cssClass: 'iconfont'
-    }))
-    .pipe($.iconfont({
-      fontName: 'iconfont',
-      formats: ['ttf', 'eot', 'woff', 'woff2', 'svg']
-    }))
-    .pipe(gulp.dest('dist/font'));
-});
+// gulp.task('iconfont', function () {
+//   return gulp.src(['src/*.svg'])
+//     .pipe($.iconfontCss({
+//       fontName: 'iconfont',
+//       path: './src/font_template.css',
+//       cssClass: 'iconfont'
+//     }))
+//     .pipe($.iconfont({
+//       fontName: 'iconfont',
+//       formats: ['ttf', 'eot', 'woff', 'woff2', 'svg']
+//     }))
+//     .pipe(gulp.dest('dist/font'));
+// });
 //svg
 gulp.task('svg', function () {
   return gulp.src('./src/*.svg')
@@ -45,9 +45,11 @@ gulp.task('svg', function () {
     .pipe(gulp.dest('dist/svg'));
 });
 //html
-gulp.task('html', function () {
-  return gulp.src('./src/*.html')
-    .pipe(gulp.dest('dist'));
-});
+// gulp.task('html', function () {
+//   return gulp.src('./src/*.html')
+//     .pipe(gulp.dest('dist'));
+// });
 // gulp.task('default', ['png', 'iconfont', 'svg', 'html']);
 // gulp.task('default', gulp.series('png', 'iconfont', 'svg', 'html'));
+
+//知乎文章 前端处理小图标的那些解决方案（图文实操）https://zhuanlan.zhihu.com/p/36910373
